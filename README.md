@@ -3,7 +3,7 @@ Source code and datasets of ISWC2017 paper "Cross-lingual Entity Alignment via J
 
 ## Code
 
-### Dependencies
+#### Dependencies
 * Python 3
 * Tensorflow 1.2 
 * Scipy
