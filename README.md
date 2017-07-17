@@ -13,7 +13,7 @@ Source code and datasets of ISWC2017 paper "Cross-lingual Entity Alignment via J
 
 ## Running and parameters
 
->Due to the instability of embedding methods, it is acceptable that the results fluctuate a bit (±1%) when runing code repeatedly.
+>Due to the instability of embedding-based methods, it is acceptable that the results fluctuate a bit (±1%) when runing code repeatedly.
 
 >If you have any difficulty or question in running code and reproducing expriment results, please email me at zqsun.nju#gmail.com .
 
