@@ -10,10 +10,12 @@ Source code and datasets of ISWC2017 paper "Cross-lingual Entity Alignment via J
 * Numpy
 
 ## Datasets
+The whole datasets can be find here. 
+The folder id_data contains
 
 ## Running and parameters
 
->Due to the instability of embedding-based methods, it is acceptable that the results fluctuate a bit (±1%) when runing code repeatedly.
+>Due to the instability of embedding-based methods, it is acceptable that the results fluctuate a bit (±1%) when running code repeatedly.
 
 >If you have any difficulty or question in running code and reproducing expriment results, please email me at zqsun.nju#gmail.com .
 
