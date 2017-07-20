@@ -11,6 +11,7 @@ Source code and datasets of ISWC2017 paper "Cross-lingual Entity Alignment via J
 
 ## Datasets
 The whole datasets can be find here. 
+
 The folder id_data contains
 
 ## Running and parameters
