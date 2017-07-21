@@ -10,6 +10,9 @@ Source code and datasets of ISWC2017 paper "Cross-lingual Entity Alignment via J
 * Numpy
 
 ## Datasets
+
+In our experiment, we do not use all the triples in datasets. For relationship triples, we select portion whose head and tail entities are popular. For attribute triples, we discard their values due to their diversity and cross-linguality.
+
 The whole datasets can be find here. 
 
 The folder id_data contains
