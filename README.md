@@ -1,5 +1,5 @@
 # JAPE
-Source code and datasets of ISWC2017 paper "Cross-lingual Entity Alignment via Joint Attribute-Preserving Embedding".
+Source code and datasets of ISWC2017 paper "Cross-lingual entity alignment via joint attribute-preserving embedding".
 
 ## Code
 
@@ -11,7 +11,7 @@ Source code and datasets of ISWC2017 paper "Cross-lingual Entity Alignment via J
 
 ## Datasets
 
-In our experiment, we do not use all the triples in datasets. For relationship triples, we select portion whose head and tail entities are popular. For attribute triples, we discard their values due to their diversity and cross-linguality.
+In our experiment, we do not use all the triples in datasets. For relationship triples, we select a portion whose head and tail entities are popular. For attribute triples, we discard their values due to diversity and cross-linguality.
 
 The whole datasets can be find here. 
 
@@ -19,10 +19,10 @@ The folder id_data contains
 
 ## Running and parameters
 
->Due to the instability of embedding-based methods, it is acceptable that the results fluctuate a bit (±1%) when running code repeatedly.
+> Due to the instability of embedding-based methods, it is acceptable that the results fluctuate a bit (±1%) when running code repeatedly.
 
->If you have any difficulty or question in running code and reproducing expriment results, please email me at zqsun.nju#gmail.com .
+> If you have any difficulty or question in running code and reproducing expriment results, please email to zqsun.nju@gmail.com and whu@nju.edu.cn.
 
 ## Cite
-If you use the JAPE model or code, please cite this paper:      
-_Zequn Sun, Wei Hu, Chengkai Li. Cross-Lingual Entity Alignment via Joint Attribute-Preserving Embedding. (ISWC 2017)._
+If you use this model or code, please cite it as follows:      
+_Zequn Sun, Wei Hu, Chengkai Li. Cross-lingual Entity Alignment via Joint Attribute-Preserving Embedding. In: ISWC 2017._
