@@ -1,5 +1,5 @@
 # JAPE
-Source code and datasets of ISWC2017 paper "Cross-lingual entity alignment via joint attribute-preserving embedding".
+Source code and datasets of ISWC2017 paper "cross-lingual entity alignment via joint attribute-preserving embedding".
 
 ## Code
 
@@ -13,13 +13,13 @@ Source code and datasets of ISWC2017 paper "Cross-lingual entity alignment via j
 
 In our experiment, we do not use all the triples in datasets. For relationship triples, we select a portion whose head and tail entities are popular. For attribute triples, we discard their values due to diversity and cross-linguality.
 
-The whole datasets can be find here. 
+The whole datasets can be find [here](http://ws.nju.edu.cn/jape/). 
 
 The folder id_data contains
 
 ## Running and parameters
 
-> Due to the instability of embedding-based methods, it is acceptable that the results fluctuate a bit (±1%) when running code repeatedly.
+> Due to the instability of embedding-based methods, it is acceptable that the results fluctuate a little bit (±1%) when running code repeatedly.
 
 > If you have any difficulty or question in running code and reproducing expriment results, please email to zqsun.nju@gmail.com and whu@nju.edu.cn.
 
