@@ -23,6 +23,6 @@ The folder id_data contains
 
 > If you have any difficulty or question in running code and reproducing expriment results, please email to zqsun.nju@gmail.com and whu@nju.edu.cn.
 
-## Cite
+## Citation
 If you use this model or code, please cite it as follows:      
 _Zequn Sun, Wei Hu, Chengkai Li. Cross-lingual Entity Alignment via Joint Attribute-Preserving Embedding. In: ISWC 2017._
