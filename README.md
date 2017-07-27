@@ -1,5 +1,5 @@
 # JAPE
-Source code and datasets of ISWC2017 paper "cross-lingual entity alignment via joint attribute-preserving embedding".
+Source code and datasets of ISWC2017 paper "cross-lingual entity alignment via joint attribute-preserving embedding", a.k.a. JAPE.
 
 ## Code
 
