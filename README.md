@@ -3,6 +3,8 @@ Source code and datasets of [ISWC2017](https://iswc2017.semanticweb.org/) paper 
 
 ## Code
 
+...
+
 #### Dependencies
 * Python 3
 * Tensorflow 1.2 
@@ -14,8 +16,6 @@ Source code and datasets of [ISWC2017](https://iswc2017.semanticweb.org/) paper 
 In our experiment, we do not use all the triples in datasets. For relationship triples, we select a portion whose head and tail entities are popular. For attribute triples, we discard their values due to diversity and cross-linguality.
 
 The whole datasets can be find [here](http://ws.nju.edu.cn/jape/). 
-
-The folder id_data contains
 
 ## Running and parameters
 
