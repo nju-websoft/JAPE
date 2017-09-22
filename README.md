@@ -3,7 +3,7 @@ Source code and datasets of [ISWC2017](https://iswc2017.semanticweb.org/) paper 
 
 ## Code
 
-Raw code can be find [here](http://ws.nju.edu.cn/jape/). 
+Raw code can be found [here](http://ws.nju.edu.cn/jape/). 
 
 #### Dependencies
 * Python 3
