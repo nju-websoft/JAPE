@@ -1,9 +1,8 @@
 # JAPE
-Source code and datasets of [ISWC2017](https://iswc2017.semanticweb.org/) paper "cross-lingual entity alignment via joint attribute-preserving embedding", a.k.a. JAPE.
+Source code and datasets of [ISWC2017](https://iswc2017.semanticweb.org/) research paper "Cross-lingual entity alignment via joint attribute-preserving embedding", a.k.a., JAPE.
 
 ## Code
-
-Raw code can be found [here](http://ws.nju.edu.cn/jape/). 
+Initial code can be found [here](http://ws.nju.edu.cn/jape/). 
 
 #### Dependencies
 * Python 3
@@ -12,17 +11,15 @@ Raw code can be found [here](http://ws.nju.edu.cn/jape/).
 * Numpy
 
 ## Datasets
-
 In our experiment, we do not use all the triples in datasets. For relationship triples, we select a portion whose head and tail entities are popular. For attribute triples, we discard their values due to diversity and cross-linguality.
 
-The whole datasets can be find [here](http://ws.nju.edu.cn/jape/). 
+The whole datasets can be found [here](http://ws.nju.edu.cn/jape/). 
 
 ## Running and parameters
-
 > Due to the instability of embedding-based methods, it is acceptable that the results fluctuate a little bit (±1%) when running code repeatedly.
 
 > If you have any difficulty or question in running code and reproducing expriment results, please email to zqsun.nju@gmail.com and whu@nju.edu.cn.
 
 ## Citation
 If you use this model or code, please cite it as follows:      
-_Zequn Sun, Wei Hu, Chengkai Li. Cross-lingual Entity Alignment via Joint Attribute-Preserving Embedding. In: ISWC 2017._
+_Zequn Sun, Wei Hu, Chengkai Li. Cross-Lingual Entity Alignment via Joint Attribute-Preserving Embedding. In: ISWC 2017._
