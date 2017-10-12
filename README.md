@@ -7,7 +7,7 @@ The correspondence between python files and our JAPE variants are as follows:
 * se_pos_neg.py == SE   
 * cse_pos_neg.py == SE+AE  
 
-To run SE:<code> python3 se_pos.py ../data/dbp15k/zh_en/ 0.3 </code>
+To run SE, use: <code> python3 se_pos.py ../data/dbp15k/zh_en/ 0.3 </code>
 
 #### Dependencies
 * Python 3
