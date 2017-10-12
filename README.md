@@ -11,6 +11,9 @@ To run SE, use: <code> python3 se_pos.py ../data/dbp15k/zh_en/ 0.3 </code>
 
 <code> python3 attr2vec.py ../data/dbp15k/zh_en/ ../data/dbp15k/zh_en/0_3/ ../data/dbp15k/zh_en/all_attrs_range ../data/dbp15k/en_all_attrs_range  </code>
 
+<code> python3 ent2vec_sparse.py ../data/dbp15k/zh_en/ 0.3 0.95 0.95 0.9 </code>
+
+
 #### Dependencies
 * Python 3
 * Tensorflow 1.2 
