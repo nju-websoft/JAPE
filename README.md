@@ -1,19 +1,19 @@
 # JAPE
-Source code and datasets of [ISWC2017](https://iswc2017.semanticweb.org/) research paper "Cross-lingual entity alignment via joint attribute-preserving embedding", a.k.a., JAPE.
+Source code and datasets for [ISWC2017](https://iswc2017.semanticweb.org/) research paper "Cross-lingual entity alignment via joint attribute-preserving embedding", a.k.a., JAPE.
 
 ## Code
-The correspondence between python files and our JAPE variants are as follows:
+The correspondence between python files and our JAPE variants is as follows:
 * se_pos.py == SE w/o neg   
 * se_pos_neg.py == SE   
-* cse_pos_neg.py == SE+AE  
+* cse_pos_neg.py == SE + AE  
 
-To run SE, use:   
+To run SE, please use:   
 <code> python3 se_pos.py ../data/dbp15k/zh_en/ 0.3 </code>
 
-To learn attribute embeddings, use:   
+To learn attribute embeddings, please use:   
 <code> python3 attr2vec.py ../data/dbp15k/zh_en/ ../data/dbp15k/zh_en/0_3/ ../data/dbp15k/zh_en/all_attrs_range ../data/dbp15k/en_all_attrs_range  </code>
 
-To calculate entity similarities, use:   
+To calculate entity similarities, please use:   
 <code> python3 ent2vec_sparse.py ../data/dbp15k/zh_en/ 0.3 0.95 0.95 0.9 </code>
 
 #### Dependencies
