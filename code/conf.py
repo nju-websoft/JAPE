@@ -1,0 +1,100 @@
+DBO_PREFIX = 'http://dbpedia.org/ontology/'
+
+ALL_ATTR_TRIPLES_FILE = 'all_attr_triples'
+ALL_ATTRS_FILE = 'all_attrs'
+ATTR_RANGE_FILE = 'all_attrs_range'
+
+TRAINING_ATTRS_FILE1 = 'training_attrs_1'
+TRAINING_ATTRS_FILE2 = 'training_attrs_2'
+SUP_ATTRS_FILE = 'sup_attr_pairs'
+ALL_IB_ATTR_TRIPLES_FILE = 'all_ib_attr_triples'
+ALL_DBO_ATTR_TRIPLES_FILE = 'all_dbo_attr_triples'
+ALL_REL_TRIPLES_FILE = 'all_rel_triples'
+ALL_REL_CLOSED_TRIPLES_FILE = 'all_rel_closed_triples'
+ALL_REL_CLOSED_BALANCED_TRIPLES_FILE = 'all_rel_closed_balanced_triples'
+# S_ATTR_TRIPLES = 's_attr_triples'
+# T_ATTR_TRIPLES = 't_attr_triples'
+S_ATTR_TRIPLES = 's_att_triples'
+T_ATTR_TRIPLES = 't_att_triples'  # 过滤后的,因为当时候统计方法去重有问题,就过滤了一下使得数据和论文中的统计数据相符合
+S_TRIPLES = 's_triples'
+T_TRIPLES = 't_triples'
+S_LABELS = 's_labels'
+T_LABELS = 't_labels'
+ENT_ILLS = "ent_ILLs"
+REL_ILLS = "rel_ILLs"
+DATA_SET_FOLDER = "data_set/"
+
+# ZH
+ZH_FOLDER = 'zh/'
+ZH_EN_FOLDER = 'zh/zh_en/'
+ZH_JA_FOLDER = 'zh/zh_ja/'
+ZH_DE_FOLDER = 'zh/zh_de/'
+ZH_ILL_FILE = ZH_FOLDER + 'interlanguage_links_zh.ttl'
+ZH_ILL_SAMPLED_FILE = ZH_FOLDER + 'interlanguage_links_zh_sampled.ttl'
+ZH_IBM_FILE = ZH_FOLDER + 'infobox_properties_mapped_zh.ttl'
+ZH_LABEL_FILE = ZH_FOLDER + 'labels_zh.ttl'
+ZH_ENT_PREFIX = 'http://zh.dbpedia.org/resource/'
+ZH_PROP_PREFIX = 'http://zh.dbpedia.org/property/'
+
+# KO
+KO_FOLDER = 'ko/'
+KO_EN_FOLDER = 'ko/ko_en/'
+KO_ILL_FILE = KO_FOLDER + 'interlanguage_links_ko.ttl'
+KO_IBM_FILE = KO_FOLDER + 'infobox_properties_mapped_ko.ttl'
+KO_IB_FILE = KO_FOLDER + 'infobox_properties_ko.ttl'
+KO_DBO_FILE = KO_FOLDER + 'mappingbased_objects_ko.ttl'
+KO_DBO_ATTR_FILE = KO_FOLDER + 'mappingbased_literals_ko.ttl'
+KO_LABEL_FILE = KO_FOLDER + 'labels_ko.ttl'
+KO_ENT_PREFIX = 'http://ko.dbpedia.org/resource/'
+KO_PROP_PREFIX = 'http://ko.dbpedia.org/property/'
+
+
+# DE
+DE_FOLDER = 'de/'
+DE_EN_FOLDER = 'de/de_en/'
+DE_ILL_FILE = DE_FOLDER + 'interlanguage_links_de.ttl'
+DE_ILL_SAMPLED_FILE = DE_FOLDER + 'interlanguage_links_de_sampled.ttl'
+DE_IBM_FILE = DE_FOLDER + 'infobox_properties_mapped_de.ttl'
+DE_IB_FILE = DE_FOLDER + 'infobox_properties_de.ttl'
+DE_DBO_FILE = DE_FOLDER + 'mappingbased_objects_de.ttl'
+DE_DBO_ATTR_FILE = DE_FOLDER + 'mappingbased_literals_de.ttl'
+DE_LABEL_FILE = DE_FOLDER + 'labels_de.ttl'
+DE_ENT_PREFIX = 'http://de.dbpedia.org/resource/'
+DE_PROP_PREFIX = 'http://de.dbpedia.org/property/'
+
+# EN
+EN_FOLDER = 'en/'
+EN_ILL_FILE = EN_FOLDER + 'interlanguage_links_en.ttl'
+EN_IB_FILE = EN_FOLDER + 'infobox_properties_en.ttl'
+EN_IBM_FILE = EN_FOLDER + 'infobox_properties_mapped_en.ttl'
+EN_DBO_FILE = EN_FOLDER + 'mappingbased_objects_en.ttl'
+EN_DBO_ATTR_FILE = EN_FOLDER + 'mappingbased_literals_en.ttl'
+EN_LABEL_FILE = EN_FOLDER + 'labels_en.ttl'
+EN_ENT_PREFIX = 'http://dbpedia.org/resource/'
+EN_PROP_PREFIX = 'http://dbpedia.org/property/'
+
+# FR
+FR_FOLDER = 'fr/'
+FR_EN_FOLDER = 'fr/fr_en/'
+FR_ILL_FILE = FR_FOLDER + 'interlanguage_links_fr.ttl'
+FR_ILL_SAMPLED_FILE = FR_FOLDER + 'interlanguage_links_fr_sampled.ttl'
+FR_IBM_FILE = FR_FOLDER + 'infobox_properties_mapped_fr.ttl'
+FR_IB_FILE = FR_FOLDER + 'infobox_properties_fr.ttl'
+FR_DBO_FILE = FR_FOLDER + 'mappingbased_objects_fr.ttl'
+FR_DBO_ATTR_FILE = FR_FOLDER + 'mappingbased_literals_fr.ttl'
+FR_LABEL_FILE = FR_FOLDER + 'labels_fr.ttl'
+FR_ENT_PREFIX = 'http://fr.dbpedia.org/resource/'
+FR_PROP_PREFIX = 'http://fr.dbpedia.org/property/'
+
+# JA
+JA_FOLDER = 'ja/'
+JA_EN_FOLDER = 'ja/ja_en/'
+JA_DE_FOLDER = 'ja/ja_de/'
+JA_ILL_FILE = JA_FOLDER + 'interlanguage_links_ja.ttl'
+JA_IBM_FILE = JA_FOLDER + 'infobox_properties_mapped_ja.ttl'
+JA_IB_FILE = JA_FOLDER + 'infobox_properties_ja.ttl'
+JA_DBO_FILE = JA_FOLDER + 'mappingbased_objects_ja.ttl'
+JA_DBO_ATTR_FILE = JA_FOLDER + 'mappingbased_literals_ja.ttl'
+JA_LABEL_FILE = JA_FOLDER + 'labels_ja.ttl'
+JA_ENT_PREFIX = 'http://ja.dbpedia.org/resource/'
+JA_PROP_PREFIX = 'http://ja.dbpedia.org/property/'
