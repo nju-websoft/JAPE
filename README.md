@@ -2,7 +2,12 @@
 Source code and datasets of [ISWC2017](https://iswc2017.semanticweb.org/) research paper "Cross-lingual entity alignment via joint attribute-preserving embedding", a.k.a., JAPE.
 
 ## Code
-Initial code can be found [here](http://ws.nju.edu.cn/jape/). 
+The correspondence between python files and our JAPE variants are as follows:
+* se_pos.py == SE w/o neg   
+* se_pos_neg.py == SE   
+* cse_pos_neg.py == SE+AE  
+
+To run SE:<code> python3 se_pos.py ../data/dbp15k/zh_en/ 0.3 </code>
 
 #### Dependencies
 * Python 3
