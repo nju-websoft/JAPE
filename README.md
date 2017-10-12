@@ -7,12 +7,14 @@ The correspondence between python files and our JAPE variants are as follows:
 * se_pos_neg.py == SE   
 * cse_pos_neg.py == SE+AE  
 
-To run SE, use: <code> python3 se_pos.py ../data/dbp15k/zh_en/ 0.3 </code>
+To run SE, use:   
+<code> python3 se_pos.py ../data/dbp15k/zh_en/ 0.3 </code>
 
+To learn attribute embeddings, use:   
 <code> python3 attr2vec.py ../data/dbp15k/zh_en/ ../data/dbp15k/zh_en/0_3/ ../data/dbp15k/zh_en/all_attrs_range ../data/dbp15k/en_all_attrs_range  </code>
 
+To calculate entity similarities, use:   
 <code> python3 ent2vec_sparse.py ../data/dbp15k/zh_en/ 0.3 0.95 0.95 0.9 </code>
-
 
 #### Dependencies
 * Python 3
