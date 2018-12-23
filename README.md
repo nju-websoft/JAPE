@@ -27,6 +27,19 @@ In our experiment, we do not use all the triples in datasets. For relationship t
 
 The whole datasets can be found [here](http://ws.nju.edu.cn/jape/). 
 
+### Directory structure
+Take DBP15K (ZH-EN) as an example, the folder 'zh_en' contains:
+* all_attrs_range: the range of attributes;
+* ent_ILLs: all entity links;
+* rel_ILLs: all relationship links;
+* s_labels: cross-lingual entity labels of source KG (ZH);
+* s_triples: relationship triples of source KG (ZH);
+* sup_attr_pairs: all attribute links;
+* t_labels: cross-lingual entity labels of target KG (EN);
+* t_triples: relationship triples of target KG (EN);
+* training_attrs_1: entity attributes in source KG (ZH);
+* training_attrs_2: entity attributes in target KG (EN);
+
 ## Running and parameters
 > Due to the instability of embedding-based methods, it is acceptable that the results fluctuate a little bit (±1%) when running code repeatedly.
 
@@ -35,3 +48,10 @@ The whole datasets can be found [here](http://ws.nju.edu.cn/jape/).
 ## Citation
 If you use this model or code, please cite it as follows:      
 _Zequn Sun, Wei Hu, Chengkai Li. Cross-Lingual Entity Alignment via Joint Attribute-Preserving Embedding. In: ISWC 2017._
+
+## Links
+The following links point to some recent work that uses this dataset:
+ 
+Sun, Zequn, et al. [Bootstrapping Entity Alignment with Knowledge Graph Embedding.](https://www.ijcai.org/proceedings/2018/0611.pdf) IJCAI. 2018.  
+Wang, Zhichun, et al. [Cross-lingual Knowledge Graph Alignment via Graph Convolutional Networks.](http://aclweb.org/anthology/D18-1032) EMNLP, 2018.  
+
