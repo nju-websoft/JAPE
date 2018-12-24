@@ -28,17 +28,34 @@ In our experiment, we do not use all the triples in datasets. For relationship t
 The whole datasets can be found [here](http://ws.nju.edu.cn/jape/). 
 
 ### Directory structure
-Take DBP15K (ZH-EN) as an example, the folder 'zh_en' contains:
-* all_attrs_range: the range of attributes;
-* ent_ILLs: all entity links;
-* rel_ILLs: all relationship links;
+Take DBP15K (ZH-EN) as an example, the folder "zh_en" contains:
+* all_attrs_range: the range code of attributes in source KG (ZH);
+* ent_ILLs: all entity links (15K);
+* rel_ILLs: all relationship links (with the same URI or localname);
 * s_labels: cross-lingual entity labels of source KG (ZH);
 * s_triples: relationship triples of source KG (ZH);
-* sup_attr_pairs: all attribute links;
+* sup_attr_pairs: all attribute links (with the same URI or localname);
 * t_labels: cross-lingual entity labels of target KG (EN);
 * t_triples: relationship triples of target KG (EN);
 * training_attrs_1: entity attributes in source KG (ZH);
 * training_attrs_2: entity attributes in target KG (EN);
+
+On top of this, we built 5 datasets (0_1, 0_2, 0_3, 0_4, 0_5) for embedding-based entity alignment models. "0_x" means that this dataset uses "x0%" entity links as training data and uses the left for testing. The two entities of each entity link in training data have the same id. In our main experiments, we used the dataset in "0_3" which has 30% entity links as training data.
+
+The folder "mtranse" contains the corresponding 5 datasets for MTransE. The difference lies in that the two entities of each entity link in training data have different ids.
+
+### Dataset structure
+Take the dataset "0_3" of DBP15K (ZH-EN) as an example, the folder "0_3" contains:
+* ent_ids_1: ids for entities in source KG (ZH);
+* ent_ids_2: ids for entities in target KG (EN);
+* ref_ent_ids: entity links encoded by ids for testing;
+* ref_ents: URIs of entity links for testing;
+* rel_ids_1: ids for relationships in source KG (ZH);
+* rel_ids_2: ids for relationships in target KG (EN);
+* sup_ent_ids: entity links encoded by ids for training;
+* sup_rel_ids: relationship links encoded by ids for training;
+* triples_1: relationship triples encoded by ids in source KG (ZH);
+* triples_2: relationship triples encoded by ids in target KG (EN);
 
 ## Running and parameters
 > Due to the instability of embedding-based methods, it is acceptable that the results fluctuate a little bit (±1%) when running code repeatedly.
