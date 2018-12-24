@@ -40,7 +40,7 @@ Take DBP15K (ZH-EN) as an example, the folder "zh_en" contains:
 * training_attrs_1: entity attributes in source KG (ZH);
 * training_attrs_2: entity attributes in target KG (EN);
 
-On top of this, we built 5 datasets (0_1, 0_2, 0_3, 0_4, 0_5) for embedding-based entity alignment models. "0_x" means that this dataset uses "x0%" entity links as training data and uses the left for testing. The two entities of each entity link in training data have the same id. In our main experiments, we used the dataset in "0_3" which has 30% entity links as training data.
+On top of this, we built 5 datasets (0_1, 0_2, 0_3, 0_4, 0_5) for embedding-based entity alignment models. "0_x" means that this dataset uses "x0%" entity links as training data and uses the rest for testing. The two entities of each entity link in training data have the same id. In our main experiments, we used the dataset in "0_3" which has 30% entity links as training data.
 
 The folder "mtranse" contains the corresponding 5 datasets for MTransE. The difference lies in that the two entities of each entity link in training data have different ids.
 
