@@ -44,7 +44,7 @@ On top of this, we built 5 datasets (0_1, 0_2, 0_3, 0_4, 0_5) for embedding-base
 
 The folder "mtranse" contains the corresponding 5 datasets for MTransE. The difference lies in that the two entities of each entity link in training data have different ids.
 
-### Dataset structure
+### Dataset files
 Take the dataset "0_3" of DBP15K (ZH-EN) as an example, the folder "0_3" contains:
 * ent_ids_1: ids for entities in source KG (ZH);
 * ent_ids_2: ids for entities in target KG (EN);
@@ -64,11 +64,11 @@ Take the dataset "0_3" of DBP15K (ZH-EN) as an example, the folder "0_3" contain
 
 ## Citation
 If you use this model or code, please cite it as follows:      
-_Zequn Sun, Wei Hu, Chengkai Li. Cross-Lingual Entity Alignment via Joint Attribute-Preserving Embedding. In: ISWC 2017._
+Zequn Sun, Wei Hu, Chengkai Li. [Cross-Lingual Entity Alignment via Joint Attribute-Preserving Embedding](https://link.springer.com/chapter/10.1007/978-3-319-68288-4_37). In: ISWC 2017.
 
 ## Links
-The following links point to some recent work that uses this dataset:
+The following links point to some recent work that uses our datasets:
  
-Sun, Zequn, et al. [Bootstrapping Entity Alignment with Knowledge Graph Embedding.](https://www.ijcai.org/proceedings/2018/0611.pdf) IJCAI. 2018.  
-Wang, Zhichun, et al. [Cross-lingual Knowledge Graph Alignment via Graph Convolutional Networks.](http://aclweb.org/anthology/D18-1032) EMNLP, 2018.  
+Zequn Sun, et al. [Bootstrapping Entity Alignment with Knowledge Graph Embedding.](https://www.ijcai.org/proceedings/2018/0611.pdf) In: IJCAI. 2018.  
+Zhichun Wang, et al. [Cross-lingual Knowledge Graph Alignment via Graph Convolutional Networks.](http://aclweb.org/anthology/D18-1032) In: EMNLP, 2018.  
 
