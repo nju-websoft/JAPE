@@ -71,4 +71,5 @@ The following links point to some recent work that uses our datasets:
  
 Zequn Sun, et al. [Bootstrapping Entity Alignment with Knowledge Graph Embedding.](https://www.ijcai.org/proceedings/2018/0611.pdf) In: IJCAI. 2018.  
 Zhichun Wang, et al. [Cross-lingual Knowledge Graph Alignment via Graph Convolutional Networks.](http://aclweb.org/anthology/D18-1032) In: EMNLP, 2018.  
+Yuting Wu, et al. [Relation-Aware Entity Alignment for Heterogeneous Knowledge Graphs.]() In: IJCAI, 2019.  
 
