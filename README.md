@@ -73,4 +73,4 @@ Zequn Sun, et al. [Bootstrapping Entity Alignment with Knowledge Graph Embedding
 Zhichun Wang, et al. [Cross-lingual Knowledge Graph Alignment via Graph Convolutional Networks.](http://aclweb.org/anthology/D18-1032) In: EMNLP 2018.  
 Yuting Wu, et al. [Relation-Aware Entity Alignment for Heterogeneous Knowledge Graphs.]() In: IJCAI 2019.  
 Kun Xu, et al. [Cross-lingual Knowledge Graph Alignment via Graph Matching Neural Network.](https://arxiv.org/pdf/1905.11605.pdf) In: ACL 2019.  
-
+Ning Pang, et al. [Iterative Entity Alignment with Improved Neural Attribute Embedding.](http://ceur-ws.org/Vol-2377/paper_5.pdf) In: DL4KG 2019. 
