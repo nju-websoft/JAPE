@@ -75,5 +75,6 @@ The following links point to some recent work that uses our datasets:
 * Kun Xu, et al. [Cross-lingual Knowledge Graph Alignment via Graph Matching Neural Network.](https://www.aclweb.org/anthology/P19-1304) In: ACL 2019.  
 * Yixin Cao, et al. [Multi-Channel Graph Neural Network for Entity Alignment.](https://www.aclweb.org/anthology/P19-1140) In: ACL 2019.  
 * Yuting Wu, et al. [Relation-Aware Entity Alignment for Heterogeneous Knowledge Graphs.](https://www.ijcai.org/proceedings/2019/0733.pdf) In: IJCAI 2019.   
+* Qiannan Zhu, et al. [Neighborhood-Aware Attentional Representation for Multilingual Knowledge Graphs.](https://www.ijcai.org/proceedings/2019/0269.pdf) In: IJCAI 2019.  
 * Fan Xiong, et al. [Entity Alignment for Cross-lingual Knowledge Graph
 with Graph Convolutional Networks.](https://www.ijcai.org/proceedings/2019/0929.pdf) In: IJCAI 2019 Doctoral Consortium. 
