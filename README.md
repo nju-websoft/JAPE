@@ -69,8 +69,11 @@ Zequn Sun, Wei Hu, Chengkai Li. [Cross-Lingual Entity Alignment via Joint Attrib
 ## Links
 The following links point to some recent work that uses our datasets:
  
-Zequn Sun, et al. [Bootstrapping Entity Alignment with Knowledge Graph Embedding.](https://www.ijcai.org/proceedings/2018/0611.pdf) In: IJCAI 2018.  
-Zhichun Wang, et al. [Cross-lingual Knowledge Graph Alignment via Graph Convolutional Networks.](http://aclweb.org/anthology/D18-1032) In: EMNLP 2018.  
-Yuting Wu, et al. [Relation-Aware Entity Alignment for Heterogeneous Knowledge Graphs.]() In: IJCAI 2019.  
-Kun Xu, et al. [Cross-lingual Knowledge Graph Alignment via Graph Matching Neural Network.](https://arxiv.org/pdf/1905.11605.pdf) In: ACL 2019.  
-Ning Pang, et al. [Iterative Entity Alignment with Improved Neural Attribute Embedding.](http://ceur-ws.org/Vol-2377/paper_5.pdf) In: DL4KG 2019. 
+* Zequn Sun, et al. [Bootstrapping Entity Alignment with Knowledge Graph Embedding.](https://www.ijcai.org/proceedings/2018/0611.pdf) In: IJCAI 2018.  
+* Zhichun Wang, et al. [Cross-lingual Knowledge Graph Alignment via Graph Convolutional Networks.](http://aclweb.org/anthology/D18-1032) In: EMNLP 2018.   
+* Ning Pang, et al. [Iterative Entity Alignment with Improved Neural Attribute Embedding.](http://ceur-ws.org/Vol-2377/paper_5.pdf) In: DL4KG 2019. 
+* Kun Xu, et al. [Cross-lingual Knowledge Graph Alignment via Graph Matching Neural Network.](https://www.aclweb.org/anthology/P19-1304) In: ACL 2019.  
+* Yixin Cao, et al. [Multi-Channel Graph Neural Network for Entity Alignment.](https://www.aclweb.org/anthology/P19-1140) In: ACL 2019.  
+* Yuting Wu, et al. [Relation-Aware Entity Alignment for Heterogeneous Knowledge Graphs.](https://www.ijcai.org/proceedings/2019/0733.pdf) In: IJCAI 2019.   
+* Fan Xiong, et al. [Entity Alignment for Cross-lingual Knowledge Graph
+with Graph Convolutional Networks.](https://www.ijcai.org/proceedings/2019/0929.pdf) In: IJCAI 2019 Doctoral Consortium. 
