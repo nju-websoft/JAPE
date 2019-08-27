@@ -64,7 +64,15 @@ Take the dataset "0_3" of DBP15K (ZH-EN) as an example, the folder "0_3" contain
 
 ## Citation
 If you use this model or code, please cite it as follows:      
-Zequn Sun, Wei Hu, Chengkai Li. [Cross-Lingual Entity Alignment via Joint Attribute-Preserving Embedding](https://link.springer.com/chapter/10.1007/978-3-319-68288-4_37). In: ISWC 2017.
+```
+@inproceedings{JAPE,
+  author    = {Zequn Sun and Wei Hu and Chengkai Li},
+  title     = {Cross-Lingual Entity Alignment via Joint Attribute-Preserving Embedding},
+  booktitle = {ISWC},
+  pages     = {628--644},
+  year      = {2017}
+}
+```
 
 ## Links
 The following links point to some recent work that uses our datasets:
@@ -77,4 +85,6 @@ The following links point to some recent work that uses our datasets:
 * Yuting Wu, et al. [Relation-Aware Entity Alignment for Heterogeneous Knowledge Graphs.](https://www.ijcai.org/proceedings/2019/0733.pdf) In: IJCAI 2019.   
 * Qiannan Zhu, et al. [Neighborhood-Aware Attentional Representation for Multilingual Knowledge Graphs.](https://www.ijcai.org/proceedings/2019/0269.pdf) In: IJCAI 2019.  
 * Fan Xiong, et al. [Entity Alignment for Cross-lingual Knowledge Graph
-with Graph Convolutional Networks.](https://www.ijcai.org/proceedings/2019/0929.pdf) In: IJCAI 2019 Doctoral Consortium. 
+with Graph Convolutional Networks.](https://www.ijcai.org/proceedings/2019/0929.pdf) In: IJCAI 2019 Doctoral Consortium.
+* Tingting Jiang, et al. [Two-Stage Entity Alignment: Combining Hybrid Knowledge Graph Embedding with Similarity-Based Relation Alignment.](https://link.springer.com/chapter/10.1007/978-3-030-29908-8_13) In: PRICAI 2019.  
+
