@@ -25,7 +25,7 @@ To calculate entity similarities, please use:
 ## Datasets
 In our experiment, we do not use all the triples in datasets. For relationship triples, we select a portion whose head and tail entities are popular. For attribute triples, we discard their values due to diversity and cross-linguality.
 
-The whole datasets can be found [here](http://ws.nju.edu.cn/jape/). 
+The whole datasets can be found in the [website](http://ws.nju.edu.cn/jape/) or [Google Drive](https://drive.google.com/file/d/1Now8iTn37QYMOUC80swlBq9QKxKhFmSU/view?usp=share_link). 
 
 ### Directory structure
 Take DBP15K (ZH-EN) as an example, the folder "zh_en" contains:
